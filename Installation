@@ -1,0 +1,13 @@
+msiexec /a ....msi /qb TARGETDIR=C:\...  #to install python without admin permision
+
+set PATH=%PATH%;C:\... 
+echo %PATH%
+
+python get-pip.py
+pip --allow-unverified # for pip install numpy if there were an error
+pip --upgrade namepackage
+pip install namepackage
+pip install file.whl
+
+
+#lib: http://www.lfd.uci.edu/~gohlke/pythonlibs/
