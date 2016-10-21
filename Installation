@@ -3,6 +3,9 @@ msiexec /a ....msi /qb TARGETDIR=C:\...  #to install python without admin permis
 set PATH=%PATH%;C:\... 
 echo %PATH%
 
+Installation ipython - jupyter
+pip install jupyter     #done
+
 python get-pip.py
 pip --allow-unverified # for pip install numpy if there were an error
 pip --upgrade namepackage
